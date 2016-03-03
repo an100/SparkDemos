@@ -28,8 +28,8 @@ If you do not have a local zookeeper, make sure to use the IP address of one of 
     su - kafka
     /usr/hdp/current/kafka-broker/bin/kafka-topics.sh \
         --create --zookeeper localhost:2181 \
-        --replication-factor 1 \ 
-        --partitions 1 \ 
+        --replication-factor 1 \
+        --partitions 1 \
         --topic sparkstreaming
 
 You can check if the topic now exists:
