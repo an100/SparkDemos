@@ -53,7 +53,7 @@ For the below example, you can download the War and Peace Novel by Leo Tolstoy f
     su - kafka
     ./loop.sh ./War_and_Peace.txt | \
         /usr/hdp/current/kafka-broker/bin//kafka-console-producer.sh \
-        --broker-list 192.168.2.53:6667 \ 
+        --broker-list 192.168.2.53:6667 \
         --topic sparkstreaming
 
 
